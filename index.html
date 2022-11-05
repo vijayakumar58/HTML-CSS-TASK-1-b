@@ -18,20 +18,22 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <div class="smallbox">Image</div>
+                    <div class="smallbox">
+                        <div class="photo"><img src="..." alt="..." class="img-thumbnail"></div>
+                    </div>
 
 
                 </div>
                 <div class="col-md-8">
-                    <label for="Name">Name :</label> <input type="Name" id="Name" placeholder="Name"><br>
-                    <label for="email">Email :</label> <input type="email" id="email" placeholder="email"
+                    <label for="Name">Name :</label> <input class="typ" type="Name" id="Name" placeholder="Name"><br>
+                    <label for="email">Email :</label> <input class="typ" type="email" id="email" placeholder="email"
                         maxlength="80"><br>
-                    <label for="phone no">Phone No :</label> <input type="phone no" id="phone no" placeholder="phone no"
+                    <label for="phone no">Phone No :</label> <input class="typ" type="phone no" id="phone no" placeholder="phone no"
                         maxlength="80"><br>
-                    <label for="Number of seats"> Number of seats :</label> <button class="dropdown"> 2</button><br>
-                    <label for="Name of Attendee 2">Name of Attendee 2 :</label> <input type="Name of Attendee 2"
+                    <label for="Number of seats"> Number of seats :</label> <select class="seat"><option>2</option><option>1</option></select><br>
+                    <label for="Name of Attendee 2">Name of Attendee 2 :</label> <input class="typ" type="Name of Attendee 2"
                         id="Name of Attendee 2" placeholder="Name of Attendee" maxlength="80"><br>
-                    <input type="submit" value="submit"> <button><a href="html">cancel</a></button>
+                    <input class="sub" type="submit" value="submit">&emsp;&emsp;<button class="can"><a href="html">cancel</a></button>
                 </div>
             </div>
         </div>

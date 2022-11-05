@@ -21,14 +21,35 @@ p{
     padding: 50px 100px;
 }
 .smallbox{
-    text-align:center;
     width: 200px;
     height: 200px;
     background-color: orange;
     border: 2px solid black;
-    margin: 20px 20px;
+    margin: 20px 10px;
+    justify-content: center;
+    padding: 25px 30px;
+}
+.photo{
+    border-radius: 50%;
+    border: 2px solid black;
+    height:150px;
+    width: 130px;
+    padding: 50px 50px;
+    background-color:antiquewhite;
 }
 .col-md-8{
     align-items: center;
-    padding-left: 100px;
+    padding-left: 50px;
+}
+.typ{
+    width: 250px;
+}
+.seat{
+    width: 100px;
+}
+.can{
+    width:180px;
+}
+.sub{
+    width: 180px;
 }
