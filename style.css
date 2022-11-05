@@ -1,3 +1,6 @@
+@media screen and (min-width:300px){
+    
+
 body {
     background-color: bisque;
 }
@@ -52,4 +55,5 @@ p{
 }
 .sub{
     width: 180px;
+}
 }
